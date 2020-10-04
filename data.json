@@ -9,16 +9,6 @@
           
         },
         {  
-          "reason":"Brand",
-          "device":"France",
-          "value":0.28
-        },
-        {  
-          "reason":"Contract Cost",
-          "device":"France",
-          "value":0.29
-        },
-        {  
           "reason":"Design And Quality",
           "device":"France",
           "value":0.17
@@ -54,16 +44,6 @@
           "value":0.27
         },
         {  
-          "reason":"Brand",
-          "device":"USA",
-          "value":0.16
-        },
-        {  
-          "reason":"Contract Cost",
-          "device":"USA",
-          "value":0.35
-        },
-        {  
           "reason":"Design And Quality",
           "device":"USA",
           "value":0.13
@@ -97,16 +77,6 @@
           "reason":"Battery Life",
           "device":"China",
           "value":0.26
-        },
-        {  
-          "reason":"Brand",
-          "device":"China",
-          "value":0.10
-        },
-        {  
-          "reason":"Contract Cost",
-          "device":"China",
-          "value":0.30
         },
         {  
           "reason":"Design And Quality",
