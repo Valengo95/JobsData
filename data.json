@@ -36,6 +36,41 @@
       ]
     },
     {  
+      "key":"Tunisia",
+      "values":[  
+        {  
+          "reason":"Business Analyst",
+          "device":"Tunisia",
+          "value":0.0770
+        },
+        {  
+          "reason":"Data Analyst",
+          "device":"Tunisia",
+          "value":0.385
+        },
+        {  
+          "reason":"Data Engineer",
+          "device":"Tunisia",
+          "value":0.0770
+        },
+        {  
+          "reason":"Data Scientist",
+          "device":"Tunisia",
+          "value":0.4615
+        },
+        {  
+          "reason":"Software Engineer",
+          "device":"Tunisia",
+          "value":0.1538
+        },
+        {  
+          "reason":"Statistician/Research Scientist",
+          "device":"Tunisia",
+          "value":0.1923
+        }
+      ]
+    },
+    {  
       "key":"United States",
       "values":[  
         {  
@@ -102,7 +137,7 @@
           "reason":"Statistician/Research Scientist",
           "device":"China",
           "value":0.138
-        }
+        } 
       ]
     }
   ]
