@@ -3,70 +3,70 @@
       "key":"France",
       "values":[  
         {  
-          "reason":"Battery Life",
+          "reason":"Business Analyst",
           "device":"France",
-          "value":0.22
+          "value":0.028
           
         },
         {  
-          "reason":"Design And Quality",
+          "reason":"Data Analyst",
           "device":"France",
-          "value":0.17
+          "value":0.070
         },
         {  
-          "reason":"Have Internet Connectivity",
+          "reason":"Data Engineer",
           "device":"France",
-          "value":0.22
+          "value":0.093
         },
         {  
-          "reason":"Large Screen",
+          "reason":"Data Scientist",
           "device":"France",
-          "value":0.02
+          "value":0.512
         },
         {  
-          "reason":"Price Of Device",
+          "reason":"Software Engineer",
           "device":"France",
-          "value":0.21
+          "value":0.121
         },
         {  
-          "reason":"To Be A Smartphone",
+          "reason":"Statistician/Research Scientist",
           "device":"France",
-          "value":0.50
+          "value":0.177
         }
       ]
     },
     {  
-      "key":"USA",
+      "key":"United States",
       "values":[  
         {  
-          "reason":"Battery Life",
-          "device":"USA",
-          "value":0.27
+          "reason":"Business Analyst",
+          "device":"United States",
+          "value":0.052
         },
         {  
-          "reason":"Design And Quality",
-          "device":"USA",
-          "value":0.13
+          "reason":"Data Analyst",
+          "device":"United States",
+          "value":0.148
         },
         {  
-          "reason":"Have Internet Connectivity",
-          "device":"USA",
-          "value":0.20
+          "reason":"Data Engineer",
+          "device":"United States",
+          "value":0.076
         },
         {  
-          "reason":"Large Screen",
-          "device":"USA",
-          "value":0.13
+          "reason":"Data Scientist",
+          "device":"United States",
+          "value":0.416
         },
         {  
-          "reason":"Price Of Device",
-          "device":"USA",
-          "value":0.35
+          "reason":"Software Engineer",
+          "device":"United States",
+          "value":0.173
         },
         {  
-          "reason":"To Be A Smartphone",
-          "device":"USA",
-          "value":0.38
+          "reason":"Statistician/Research Scientist",
+          "device":"United States",
+          "value":0.134
         }
       ]
     },
@@ -74,34 +74,34 @@
       "key":"China",
       "values":[  
         {  
-          "reason":"Battery Life",
+          "reason":"Business Analyst",
           "device":"China",
-          "value":0.26
+          "value":0.043
         },
         {  
-          "reason":"Design And Quality",
+          "reason":"Data Analyst",
           "device":"China",
-          "value":0.14
+          "value":0.207
         },
         {  
-          "reason":"Have Internet Connectivity",
+          "reason":"Data Engineer",
           "device":"China",
-          "value":0.22
+          "value":0.154
         },
         {  
-          "reason":"Large Screen",
+          "reason":"Data Scientist",
           "device":"China",
-          "value":0.04
+          "value":0.164
         },
         {  
-          "reason":"Price Of Device",
+          "reason":"Software Engineer",
           "device":"China",
-          "value":0.41
+          "value":0.293
         },
         {  
-          "reason":"To Be A Smartphone",
+          "reason":"Statistician/Research Scientist",
           "device":"China",
-          "value":0.30
+          "value":0.138
         }
       ]
     }
