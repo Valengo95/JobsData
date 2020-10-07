@@ -1,0 +1,458 @@
+{
+   "Australia": [
+      {
+         "FIELD1": 12,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.0625,
+         "SalaryMean": 39768.61061111111
+      },
+      {
+         "FIELD1": 13,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.1597222222222222,
+         "SalaryMean": 33736.075586956526
+      },
+      {
+         "FIELD1": 14,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.04861111111111111,
+         "SalaryMean": 58285.35664285714
+      },
+      {
+         "FIELD1": 15,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.4444444444444444,
+         "SalaryMean": 46533.007320312456
+      },
+      {
+         "FIELD1": 16,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.1527777777777778,
+         "SalaryMean": 38683.02222727273
+      },
+      {
+         "FIELD1": 17,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.13194444444444445,
+         "SalaryMean": 36517.13110526316
+      }
+   ],
+   "Brazil": [
+      {
+         "FIELD1": 40,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.09382716049382717,
+         "SalaryMean": 10862.440302631572
+      },
+      {
+         "FIELD1": 41,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.12839506172839507,
+         "SalaryMean": 5877.903346153847
+      },
+      {
+         "FIELD1": 42,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.07407407407407407,
+         "SalaryMean": 18608.232850000004
+      },
+      {
+         "FIELD1": 43,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.3333333333333333,
+         "SalaryMean": 11647.97542962961
+      },
+      {
+         "FIELD1": 44,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.22469135802469137,
+         "SalaryMean": 9899.705549450557
+      },
+      {
+         "FIELD1": 45,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.145679012345679,
+         "SalaryMean": 12402.156305084753
+      }
+   ],
+   "China": [
+      {
+         "FIELD1": 58,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.0425531914893617,
+         "SalaryMean": 5538.437
+      },
+      {
+         "FIELD1": 59,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.2074468085106383,
+         "SalaryMean": 7496.916166666667
+      },
+      {
+         "FIELD1": 60,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.15425531914893617,
+         "SalaryMean": 9434.120224137932
+      },
+      {
+         "FIELD1": 61,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.16489361702127658,
+         "SalaryMean": 12652.668854838706
+      },
+      {
+         "FIELD1": 62,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.2925531914893617,
+         "SalaryMean": 12829.29950909091
+      },
+      {
+         "FIELD1": 63,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.13829787234042554,
+         "SalaryMean": 17828.951423076916
+      }
+   ],
+   "France": [
+      {
+         "FIELD1": 88,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.027906976744186046,
+         "SalaryMean": 26697.582833333334
+      },
+      {
+         "FIELD1": 89,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.06976744186046512,
+         "SalaryMean": 18789.799500000005
+      },
+      {
+         "FIELD1": 90,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.09302325581395349,
+         "SalaryMean": 22627.149499999992
+      },
+      {
+         "FIELD1": 91,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.5116279069767442,
+         "SalaryMean": 23034.685863636314
+      },
+      {
+         "FIELD1": 92,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.12093023255813953,
+         "SalaryMean": 27506.970673076932
+      },
+      {
+         "FIELD1": 93,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.17674418604651163,
+         "SalaryMean": 24219.802131578956
+      }
+   ],
+   "Germany": [
+      {
+         "FIELD1": 94,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.03237410071942446,
+         "SalaryMean": 36710.27727777777
+      },
+      {
+         "FIELD1": 95,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.07194244604316546,
+         "SalaryMean": 27282.774499999992
+      },
+      {
+         "FIELD1": 96,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.0539568345323741,
+         "SalaryMean": 29067.39949999999
+      },
+      {
+         "FIELD1": 97,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.4352517985611511,
+         "SalaryMean": 33582.74123553713
+      },
+      {
+         "FIELD1": 98,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.17625899280575538,
+         "SalaryMean": 26109.320938775498
+      },
+      {
+         "FIELD1": 99,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.2302158273381295,
+         "SalaryMean": 22808.573726562485
+      }
+   ],
+   "India": [
+      {
+         "FIELD1": 117,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.08823529411764706,
+         "SalaryMean": 7944.00556666666
+      },
+      {
+         "FIELD1": 118,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.1497326203208556,
+         "SalaryMean": 4411.264682142854
+      },
+      {
+         "FIELD1": 119,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.06096256684491978,
+         "SalaryMean": 5678.484153508767
+      },
+      {
+         "FIELD1": 120,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.32085561497326204,
+         "SalaryMean": 9562.591585833266
+      },
+      {
+         "FIELD1": 121,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.30267379679144385,
+         "SalaryMean": 6599.592698763195
+      },
+      {
+         "FIELD1": 122,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.07754010695187166,
+         "SalaryMean": 8712.061579310342
+      }
+   ],
+   "Italy": [
+      {
+         "FIELD1": 147,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.041379310344827586,
+         "SalaryMean": 41299.9995
+      },
+      {
+         "FIELD1": 148,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.11724137931034483,
+         "SalaryMean": 9541.705382352944
+      },
+      {
+         "FIELD1": 149,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.06896551724137931,
+         "SalaryMean": 17321.149500000003
+      },
+      {
+         "FIELD1": 150,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.3586206896551724,
+         "SalaryMean": 17969.239884615396
+      },
+      {
+         "FIELD1": 151,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.2,
+         "SalaryMean": 15320.965017241371
+      },
+      {
+         "FIELD1": 152,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.21379310344827587,
+         "SalaryMean": 21897.886596774195
+      }
+   ],
+   "Japan": [
+      {
+         "FIELD1": 153,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.03651685393258427,
+         "SalaryMean": 26898.326423076916
+      },
+      {
+         "FIELD1": 154,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.10112359550561797,
+         "SalaryMean": 17736.506444444436
+      },
+      {
+         "FIELD1": 155,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.08426966292134831,
+         "SalaryMean": 13850.482866666664
+      },
+      {
+         "FIELD1": 156,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.28651685393258425,
+         "SalaryMean": 19528.49949999996
+      },
+      {
+         "FIELD1": 157,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.33146067415730335,
+         "SalaryMean": 21820.62661864403
+      },
+      {
+         "FIELD1": 158,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.1601123595505618,
+         "SalaryMean": 22432.683736842093
+      }
+   ],
+   "Nigeria": [
+      {
+         "FIELD1": 193,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.048484848484848485,
+         "SalaryMean": 1565.15575
+      },
+      {
+         "FIELD1": 194,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.17575757575757575,
+         "SalaryMean": 2235.9995000000004
+      },
+      {
+         "FIELD1": 195,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.06060606060606061,
+         "SalaryMean": 1827.7994999999996
+      },
+      {
+         "FIELD1": 196,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.3393939393939394,
+         "SalaryMean": 4868.026285714287
+      },
+      {
+         "FIELD1": 197,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.18181818181818182,
+         "SalaryMean": 6550.207833333336
+      },
+      {
+         "FIELD1": 198,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.19393939393939394,
+         "SalaryMean": 1408.4291875
+      }
+   ],
+   "Russia": [
+      {
+         "FIELD1": 251,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.08405797101449275,
+         "SalaryMean": 9615.56846551724
+      },
+      {
+         "FIELD1": 252,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.09565217391304348,
+         "SalaryMean": 9254.151015151514
+      },
+      {
+         "FIELD1": 253,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.0463768115942029,
+         "SalaryMean": 6508.812000000002
+      },
+      {
+         "FIELD1": 254,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.3565217391304348,
+         "SalaryMean": 12371.822678861769
+      },
+      {
+         "FIELD1": 255,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.2492753623188406,
+         "SalaryMean": 10667.505313953496
+      },
+      {
+         "FIELD1": 256,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.1681159420289855,
+         "SalaryMean": 8588.45208620689
+      }
+   ],
+   "United Kingdom": [
+      {
+         "FIELD1": 327,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.027888446215139442,
+         "SalaryMean": 47202.49949999999
+      },
+      {
+         "FIELD1": 328,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.15139442231075698,
+         "SalaryMean": 23416.53897368422
+      },
+      {
+         "FIELD1": 329,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.043824701195219126,
+         "SalaryMean": 32995.22677272727
+      },
+      {
+         "FIELD1": 330,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.46215139442231074,
+         "SalaryMean": 36115.23010775856
+      },
+      {
+         "FIELD1": 331,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.14342629482071714,
+         "SalaryMean": 38172.51338888888
+      },
+      {
+         "FIELD1": 332,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.17131474103585656,
+         "SalaryMean": 28476.06926744185
+      }
+   ],
+   "United States": [
+      {
+         "FIELD1": 333,
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.052262587635436585,
+         "SalaryMean": 38735.4934146341
+      },
+      {
+         "FIELD1": 334,
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.1478648820905035,
+         "SalaryMean": 39237.43592241381
+      },
+      {
+         "FIELD1": 335,
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.0758444869343531,
+         "SalaryMean": 55694.34615126044
+      },
+      {
+         "FIELD1": 336,
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.41618865519439135,
+         "SalaryMean": 60099.55120137779
+      },
+      {
+         "FIELD1": 337,
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.17335882727852134,
+         "SalaryMean": 54231.28628308856
+      },
+      {
+         "FIELD1": 338,
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.13448056086679414,
+         "SalaryMean": 50387.395255924304
+      }
+   ]
+}
