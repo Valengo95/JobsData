@@ -1,0 +1,519 @@
+[
+   {
+     "Key": "Australia",
+     "values": [
+       {
+         "Country": "Australia",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.0625,
+         "SalaryMean": 39768.610611111115,
+         "Unnamed: 0": 12
+       },
+       {
+         "Country": "Australia",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.1597222222222222,
+         "SalaryMean": 33736.075586956526,
+         "Unnamed: 0": 13
+       },
+       {
+         "Country": "Australia",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.04861111111111111,
+         "SalaryMean": 58285.356642857136,
+         "Unnamed: 0": 14
+       },
+       {
+         "Country": "Australia",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.4444444444444444,
+         "SalaryMean": 46533.00732031245,
+         "Unnamed: 0": 15
+       },
+       {
+         "Country": "Australia",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.1527777777777778,
+         "SalaryMean": 38683.022227272726,
+         "Unnamed: 0": 16
+       },
+       {
+         "Country": "Australia",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.13194444444444445,
+         "SalaryMean": 36517.131105263164,
+         "Unnamed: 0": 17
+       }
+     ]
+   },
+   {
+     "Key": "Brazil",
+     "values": [
+       {
+         "Country": "Brazil",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.09382716049382717,
+         "SalaryMean": 10862.440302631572,
+         "Unnamed: 0": 40
+       },
+       {
+         "Country": "Brazil",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.12839506172839507,
+         "SalaryMean": 5877.9033461538465,
+         "Unnamed: 0": 41
+       },
+       {
+         "Country": "Brazil",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.07407407407407407,
+         "SalaryMean": 18608.232850000004,
+         "Unnamed: 0": 42
+       },
+       {
+         "Country": "Brazil",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.3333333333333333,
+         "SalaryMean": 11647.975429629609,
+         "Unnamed: 0": 43
+       },
+       {
+         "Country": "Brazil",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.22469135802469134,
+         "SalaryMean": 9899.705549450555,
+         "Unnamed: 0": 44
+       },
+       {
+         "Country": "Brazil",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.145679012345679,
+         "SalaryMean": 12402.15630508475,
+         "Unnamed: 0": 45
+       }
+     ]
+   },
+   {
+     "Key": "China",
+     "values": [
+       {
+         "Country": "China",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.0425531914893617,
+         "SalaryMean": 5538.437,
+         "Unnamed: 0": 58
+       },
+       {
+         "Country": "China",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.2074468085106383,
+         "SalaryMean": 7496.916166666668,
+         "Unnamed: 0": 59
+       },
+       {
+         "Country": "China",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.15425531914893614,
+         "SalaryMean": 9434.120224137932,
+         "Unnamed: 0": 60
+       },
+       {
+         "Country": "China",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.16489361702127658,
+         "SalaryMean": 12652.668854838706,
+         "Unnamed: 0": 61
+       },
+       {
+         "Country": "China",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.2925531914893617,
+         "SalaryMean": 12829.299509090908,
+         "Unnamed: 0": 62
+       },
+       {
+         "Country": "China",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.13829787234042554,
+         "SalaryMean": 17828.951423076916,
+         "Unnamed: 0": 63
+       }
+     ]
+   },
+   {
+     "Key": "France",
+     "values": [
+       {
+         "Country": "France",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.027906976744186046,
+         "SalaryMean": 26697.58283333333,
+         "Unnamed: 0": 88
+       },
+       {
+         "Country": "France",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.06976744186046513,
+         "SalaryMean": 18789.799500000005,
+         "Unnamed: 0": 89
+       },
+       {
+         "Country": "France",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.09302325581395347,
+         "SalaryMean": 22627.14949999999,
+         "Unnamed: 0": 90
+       },
+       {
+         "Country": "France",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.5116279069767442,
+         "SalaryMean": 23034.685863636318,
+         "Unnamed: 0": 91
+       },
+       {
+         "Country": "France",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.12093023255813952,
+         "SalaryMean": 27506.97067307693,
+         "Unnamed: 0": 92
+       },
+       {
+         "Country": "France",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.17674418604651165,
+         "SalaryMean": 24219.80213157896,
+         "Unnamed: 0": 93
+       }
+     ]
+   },
+   {
+     "Key": "Germany",
+     "values": [
+       {
+         "Country": "Germany",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.03237410071942446,
+         "SalaryMean": 36710.27727777777,
+         "Unnamed: 0": 94
+       },
+       {
+         "Country": "Germany",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.07194244604316546,
+         "SalaryMean": 27282.77449999999,
+         "Unnamed: 0": 95
+       },
+       {
+         "Country": "Germany",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.0539568345323741,
+         "SalaryMean": 29067.399499999985,
+         "Unnamed: 0": 96
+       },
+       {
+         "Country": "Germany",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.4352517985611511,
+         "SalaryMean": 33582.74123553713,
+         "Unnamed: 0": 97
+       },
+       {
+         "Country": "Germany",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.17625899280575538,
+         "SalaryMean": 26109.320938775498,
+         "Unnamed: 0": 98
+       },
+       {
+         "Country": "Germany",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.2302158273381295,
+         "SalaryMean": 22808.573726562485,
+         "Unnamed: 0": 99
+       }
+     ]
+   },
+   {
+     "Key": "India",
+     "values": [
+       {
+         "Country": "India",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.08823529411764706,
+         "SalaryMean": 7944.0055666666585,
+         "Unnamed: 0": 117
+       },
+       {
+         "Country": "India",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.1497326203208556,
+         "SalaryMean": 4411.264682142854,
+         "Unnamed: 0": 118
+       },
+       {
+         "Country": "India",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.060962566844919776,
+         "SalaryMean": 5678.484153508767,
+         "Unnamed: 0": 119
+       },
+       {
+         "Country": "India",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.32085561497326204,
+         "SalaryMean": 9562.591585833266,
+         "Unnamed: 0": 120
+       },
+       {
+         "Country": "India",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.30267379679144385,
+         "SalaryMean": 6599.592698763195,
+         "Unnamed: 0": 121
+       },
+       {
+         "Country": "India",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.07754010695187166,
+         "SalaryMean": 8712.061579310342,
+         "Unnamed: 0": 122
+       }
+     ]
+   },
+   {
+     "Key": "Italy",
+     "values": [
+       {
+         "Country": "Italy",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.04137931034482759,
+         "SalaryMean": 41299.9995,
+         "Unnamed: 0": 147
+       },
+       {
+         "Country": "Italy",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.11724137931034485,
+         "SalaryMean": 9541.705382352944,
+         "Unnamed: 0": 148
+       },
+       {
+         "Country": "Italy",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.06896551724137931,
+         "SalaryMean": 17321.149500000003,
+         "Unnamed: 0": 149
+       },
+       {
+         "Country": "Italy",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.3586206896551724,
+         "SalaryMean": 17969.239884615396,
+         "Unnamed: 0": 150
+       },
+       {
+         "Country": "Italy",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.2,
+         "SalaryMean": 15320.965017241371,
+         "Unnamed: 0": 151
+       },
+       {
+         "Country": "Italy",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.21379310344827587,
+         "SalaryMean": 21897.8865967742,
+         "Unnamed: 0": 152
+       }
+     ]
+   },
+   {
+     "Key": "Japan",
+     "values": [
+       {
+         "Country": "Japan",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.03651685393258427,
+         "SalaryMean": 26898.32642307692,
+         "Unnamed: 0": 153
+       },
+       {
+         "Country": "Japan",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.10112359550561796,
+         "SalaryMean": 17736.506444444436,
+         "Unnamed: 0": 154
+       },
+       {
+         "Country": "Japan",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.08426966292134831,
+         "SalaryMean": 13850.482866666665,
+         "Unnamed: 0": 155
+       },
+       {
+         "Country": "Japan",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.28651685393258425,
+         "SalaryMean": 19528.499499999958,
+         "Unnamed: 0": 156
+       },
+       {
+         "Country": "Japan",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.3314606741573033,
+         "SalaryMean": 21820.62661864403,
+         "Unnamed: 0": 157
+       },
+       {
+         "Country": "Japan",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.1601123595505618,
+         "SalaryMean": 22432.68373684209,
+         "Unnamed: 0": 158
+       }
+     ]
+   },
+   {
+     "Key": "Nigeria",
+     "values": [
+       {
+         "Country": "Nigeria",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.048484848484848485,
+         "SalaryMean": 1565.15575,
+         "Unnamed: 0": 193
+       },
+       {
+         "Country": "Nigeria",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.17575757575757575,
+         "SalaryMean": 2235.999500000001,
+         "Unnamed: 0": 194
+       },
+       {
+         "Country": "Nigeria",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.060606060606060615,
+         "SalaryMean": 1827.7995,
+         "Unnamed: 0": 195
+       },
+       {
+         "Country": "Nigeria",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.3393939393939394,
+         "SalaryMean": 4868.026285714287,
+         "Unnamed: 0": 196
+       },
+       {
+         "Country": "Nigeria",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.18181818181818185,
+         "SalaryMean": 6550.207833333337,
+         "Unnamed: 0": 197
+       },
+       {
+         "Country": "Nigeria",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.19393939393939394,
+         "SalaryMean": 1408.4291875,
+         "Unnamed: 0": 198
+       }
+     ]
+   },
+   {
+     "Key": "Russia",
+     "values": [
+       {
+         "Country": "Russia",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.08405797101449275,
+         "SalaryMean": 9615.56846551724,
+         "Unnamed: 0": 251
+       },
+       {
+         "Country": "Russia",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.09565217391304348,
+         "SalaryMean": 9254.151015151514,
+         "Unnamed: 0": 252
+       },
+       {
+         "Country": "Russia",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.0463768115942029,
+         "SalaryMean": 6508.812000000003,
+         "Unnamed: 0": 253
+       },
+       {
+         "Country": "Russia",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.3565217391304348,
+         "SalaryMean": 12371.822678861767,
+         "Unnamed: 0": 254
+       },
+       {
+         "Country": "Russia",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.2492753623188406,
+         "SalaryMean": 10667.505313953496,
+         "Unnamed: 0": 255
+       },
+       {
+         "Country": "Russia",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.1681159420289855,
+         "SalaryMean": 8588.452086206891,
+         "Unnamed: 0": 256
+       }
+     ]
+   },
+   {
+     "Key": "United Kingdom",
+     "values": [
+       {
+         "Country": "United Kingdom",
+         "JobTitle": "Business Analyst",
+         "Ratio": 0.027888446215139442,
+         "SalaryMean": 47202.49949999999,
+         "Unnamed: 0": 327
+       },
+       {
+         "Country": "United Kingdom",
+         "JobTitle": "Data Analyst",
+         "Ratio": 0.15139442231075698,
+         "SalaryMean": 23416.53897368422,
+         "Unnamed: 0": 328
+       },
+       {
+         "Country": "United Kingdom",
+         "JobTitle": "Data Engineer/DBA",
+         "Ratio": 0.043824701195219126,
+         "SalaryMean": 32995.22677272727,
+         "Unnamed: 0": 329
+       },
+       {
+         "Country": "United Kingdom",
+         "JobTitle": "Data Scientist",
+         "Ratio": 0.4621513944223107,
+         "SalaryMean": 36115.230107758565,
+         "Unnamed: 0": 330
+       },
+       {
+         "Country": "United Kingdom",
+         "JobTitle": "Software Engineer",
+         "Ratio": 0.14342629482071714,
+         "SalaryMean": 38172.51338888888,
+         "Unnamed: 0": 331
+       },
+       {
+         "Country": "United Kingdom",
+         "JobTitle": "Statistician/Research Scientist",
+         "Ratio": 0.17131474103585656,
+         "SalaryMean": 28476.06926744185,
+         "Unnamed: 0": 332
+       }
+     ]
+   }
+ ]
