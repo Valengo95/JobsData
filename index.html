@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Vallauri & Gaucher - Visualisation</title>
+    <meta name="description" content="Simplified Bootstrap template with sticky menu">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="sticky-menu.css" rel="stylesheet">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Introduction</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Données</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#whatwedo">Visualisations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Tableau de Mackinlay</a>
+                    </li>
+                </ul>
+            </div>	<!-- .navbar-collapse -->
+        </div>		<!-- .container -->
+    </nav>
+    <!-- Welcome   -->
+    <section id="welcome" class="welcome-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1><b> Etude sur l'état global de l'emploi dans la Data Science en 2019</b></h1>
+                    <h3><b> Julien Gaucher & Adrien Vallauri</b></h3>
+                    <h3>En 2019, Kaggle a entrepris de mener une enquête sur les personnes travaillant dans l'industrie de la science des données et de l'apprentissage automatique. Cette enquête prend la forme d’un sondage de 34 questions durant une dizaine de minutes et permet d’acquérir des données sur le profil et les technologies utilisés par les répondants. Au bout de trois semaines en octobre 2019, et après avoir nettoyé les données, Kaggle a fourni les données bruts des 19 717 réponses :<br> <a href="https://www.kaggle.com/c/kaggle-survey-2019/data" target="_blank" rel="nofollow">2019 Kaggle ML & DS Survey</a><h3>
+					<h3><br><b>Cette visualisation est issus de l'étude de ces données</b><h3>
+					<h3>Son but est de permettre à nos collègues du Mastère Big Data 2020 à l'ENSIMAG d'observer partiellement l'état global de l'emploi dans la Datscience. Plus précisement, elle permet de visualiser les différents profils de nos futurs confrères à travers le monde et les variations de salaires associées. Ces données restent néanmoins seulement indicatives et sont à prendre avec des pincettes car elle peuvent être biaisées par l'utilisation de Kaggle selon le profil. En effet certains pays ou certains métiers tels que Software Engineer sont moins présents sur la plateforme. <h3>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Préparation des données</h1>
+                    <h3><br>Les données sur lesquelles nous avons travaillé correspondent aux réponses des questions suivantes :</h3>
+                    <img src="ImageQuestionnaire.PNG" height="170px" width="920px" />
+                    <h3>Nous avons écarté tous ceux qui ont mis moins de 3 minutes ou plus de 600 minutes pour répondre à l'enquête (180s < Duration < 36000) ainsi que ceux qui n'ont pas divulgué leur indemnisation (Q10 = NaN)</h3>
+                    <h3>Pour pouvoir travailler sur l'éventail des salaires et des âges nous avons du les transformer en valeur numérique (max + min / 2) </h3>
+                    <h3>Nous avons également du transformer les colonnes indiquant le titre des jobs (Q5), la taille de l'entreprise (Q6) ainsi que le nombre d’années d’expérience en programmation (Q15) en catégories pour pouvoir les regrouper plus facilement. De plus une catégorie peut avoir un ordre logique, qui sera préservé lors du tracé de la visualisation.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visualisations section -->
+    <section id="whatwedo" class="whatwedo-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>VISUALISATIONS</h1>
+                </div>
+            </div>
+        </div>
+        <h1>___________________</h1>
+        <!--PIE CHART-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                <h1>Nombre de participants par pays</h1>
+                <p>Dans un souci de clarté, nous avons basé notre étude sur les 12 pays les plus représentés, ce qui correspond à 64% du nombre total de participants.</p>
+                <p>Comme nous le voyons ci-dessous, l'Inde et les Etats-Unis sont les pays les plus représentés.</p>
+
+                
+                <div id="PieChart"></div>
+                    <!-- Load d3.js & color scale -->
+                    <script src="https://d3js.org/d3.v4.js"></script>
+                    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+                    <!-- Create a div where the graph will take place -->
+                    <div id="my_dataviz1"></div>
+
+                    <script src=1PieChart.js></script>
+
+                </div>
+                <p style="color:#FFFFFF">juste pour avoir ligne espace</p>
+                <B>Types de données et variables visuelles utilisées</B>
+                <p style="color:#FFFFFF">juste pour avoir ligne espace</p>
+                <p>Nous voyons tout d'abord les noms de pays. Ces derniers sont de type nominal, et sont représentés par des teintes différentes.</p>
+                <p>Les angles et surfaces offerts par le pie chart permettent de percevoir le nombre de participants au sein de chaque pays.</p>
+                <h1>___________________</h1>
+                <!--SALARY RADAR CHART-->
+                <h1>Salaire en fonction du métier pour chaque pays</h1>
+                <p> Sur ce graphique montrant la moyenne des salaires en fonction du pays et du métier, nous pouvons observer quels sont les métiers les plus valorisés au sein d’un pays. Par exemple un Data Scientist aux Etats-Unis est mieux rémunéré par rapport à un Business Analyst mais cette tendance s’inverse au Royaume-Uni.<br> On observe également d’énormes disparités de salaires indépendamment des métiers entre chaque pays. Ainsi en moyenne un Data Scientist nigérian gagne malheureusement moins en un an qu’un confrère américain en un mois. </p>
+                <p style="color:#FFFFFF">juste pour avoir ligne espace</p>
+                <p>Vous pouvez passer la souris sur la légende afin de mettre les pays en surbrillance.</p>
+                <div id="SalaryRadarCHart"></div>
+
+                    <div class="radarChart"></div>
+
+                    <!-- Google fonts -->
+                    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+                    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+                    <!-- D3.js -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.3.0/d3-legend.js" charset="utf-8"></script>
+
+                    <script src="3SalaryMeanRadarChart.js"></script>	
+                    <script>
+                        ////////////////////////////////////////////////////////////// 
+                        //////////////////////// Set-Up ////////////////////////////// 
+                        ////////////////////////////////////////////////////////////// 
+
+                        var margin = {top: 90, right: 100, bottom: 100, left: 220},
+                            legendPosition = {x: 10, y: 90},
+                            width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+                            height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+                            
+                        ////////////////////////////////////////////////////////////// 
+                        //////////////////// Draw the Chart ////////////////////////// 
+                        ////////////////////////////////////////////////////////////// 
+
+                        var color = d3.scale.ordinal()
+                            .range(["#78909C","#EC407A","#AB47BC","#5C6BC0","#42A5F5","#26C6DA","#66BB6A","#D4E157","#FFEE58","#FFA726","#FF7043","#8D6E63"]);
+                        
+                        var radarChartOptions = {
+                        w: width,
+                        h: height,
+                        margin: margin,
+                        legendPosition: legendPosition,
+                        maxValue: 0.5,
+                        wrapWidth: 60,
+                        levels: 5,
+                        roundStrokes: true,
+                        color: color,
+                        axisName: "JobTitle",
+                        areaName: "Country",
+                        value: "SalaryMean"
+                        };
+
+                        //Load the data and Call function to draw the Radar chart
+                        d3.json("3SalaryMeanByJobByCountry.json", function(error, data){
+                            RadarChart(".radarChart", data, radarChartOptions);
+                        });
+                    
+                    </script>
+
+                </div>
+                <h1>___________________</h1>
+                <!--RATIO RADAR CHART-->
+                <h1>Ratio du nombre de personne par métier pour chaque pays</h1>
+                <p>Sur ce graphique montrant le pourcentage de présence de chaque métiers, nous pouvons observer les différences de tendances d’emploi entre les pays. Grâces aux qualités du radar chart, on observe ainsi deux groupes se découper distinctement d’un coté un bloc correspondant aux pays de l’OTAN ou l’on peut observer une grande prévalence de Data Scientist (atteignant plus de la moitié des jobs en France) contrairement aux autres pays qui sont beaucoup plus équilibrés entre les 6 métiers. </p>
+                <div id="RatioRadarCHart"></div>
+
+                    <div class="radarChart2"></div>
+
+                    <!-- Google fonts -->
+                    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+                    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+                    <!-- D3.js -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.3.0/d3-legend.js" charset="utf-8"></script>
+
+                    <script src="4RatioRadarChart.js"></script>	
+                    <script>
+                        ////////////////////////////////////////////////////////////// 
+                        //////////////////////// Set-Up ////////////////////////////// 
+                        ////////////////////////////////////////////////////////////// 
+
+                        var margin = {top: 90, right: 100, bottom: 100, left: 220},
+                            legendPosition = {x: 10, y: 90},
+                            width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+                            height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+                                
+                        ////////////////////////////////////////////////////////////// 
+                        //////////////////// Draw the Chart ////////////////////////// 
+                        ////////////////////////////////////////////////////////////// 
+
+                        var color = d3.scale.ordinal()
+                            .range(["#78909C","#EC407A","#AB47BC","#5C6BC0","#42A5F5","#26C6DA","#66BB6A","#D4E157","#FFEE58","#FFA726","#FF7043","#8D6E63"]);
+                            
+                        var radarChartOptions2 = {
+                        w: width,
+                        h: height,
+                        margin: margin,
+                        legendPosition: legendPosition,
+                        maxValue: 0.5,
+                        wrapWidth: 60,
+                        levels: 5,
+                        roundStrokes: true,
+                        color: color,
+                        axisName: "JobTitle",
+                        areaName: "Country",
+                        value: "Ratio"
+                        };
+
+                        //Load the data and Call function to draw the Radar chart
+                        d3.json("4RatioByJobByCountry.json", function(error, data2){
+                            RadarChart2(".radarChart2", data2, radarChartOptions2);
+                        });
+                        
+                    </script>
+
+                </div>
+                <p style="color:#FFFFFF">juste pour avoir ligne espace</p>
+                <B>Types de données et variables visuelles utilisées</B>
+                <p style="color:#FFFFFF">juste pour avoir ligne espace</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                        <p> Pour ces deux visualisations notre choix s’est porté naturellement vers un graphiques en radar (ou radar chart) car il permet de visualiser mais surtout de comparer facilement les pays entre eux. La position des différents points mais également la forme et l’angularité d’une étoile nous permettent de percevoir rapidement et aisément les différences de quantité mais également d’homogénéité au seins d’un pays et entre les pays. En effet on observe de manière frappante les valeurs aberrantes et les points communs. </p>
+                        <p> Une limitation importante de ce type de graphique reste néanmoins la faible quantité de données représentables sans le surchargé. De plus, il est difficile de comparer visuellement les longueurs de différents rayons, car les distances radiales sont difficiles à juger, bien que les cercles concentriques servent de lignes de quadrillage. </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <h1>___________________</h1>
+                <!--LINE CHART-->
+                <h1>Salaire ($) en fonction du nombre d'années d'expérience en programmation</h1>
+                <p>On observe naturellement que le salaire augmente avec l'expérience en programmation engranger au fil des années.</p>
+                <p>Pour faciliter la comparaison, Vous avez <B>la possibilité de cliquer sur les métiers</B> dans la légende afin de gérer l'apparition des courbes.</p>
+                <div id="LineChart"></div>
+                    <!-- Load d3.js -->
+                    <script src="https://d3js.org/d3.v4.js"></script>
+
+                    <!-- Create a div where the graph will take place -->
+                    <div id="my_dataviz2"></div>
+
+                    <!-- Color Scale -->
+                    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+                    <script src="4LineChart.js"></script>
+
+                </div>
+                <p style="color:#FFFFFF">juste pour avoir ligne espace</p>
+                <B>Types de données et variables visuelles utilisées</B>
+                <p style="color:#FFFFFF">juste pour avoir ligne espace</p>
+                <p>Nous avons tout d'abord les différents métiers, qui sont de type nominal, et qui sont représentés par des teintes différentes.</p>
+                <p>Ensuite, le salaire en fonction du nombre d'années d'expérience en programmation (données quantitatives), se distingue grâce à la position de chaque point sur le graphique.</p>
+                <p>Enfin, l'angle de chaque courbe permet d'apprécier l'évolution du salaire pour chaque métier.</p>
+                <h1>___________________</h1>
+                <h1>Salaire moyen ($) en fonction de la taille de l'entreprise</h1>
+                <p>En cliquant sur les différents boutons, nous pouvons voir le salaire moyen pour chaque métier, en fonction de la taille de l'entreprise.</p>
+                <p>Sans surprise, ce sont bien les grandes entreprises qui offrent les salaires les plus avantageux dans la plupart des cas. Néanmoins, c'est dans les entreprises de 0 à 49 employés que les Business Analyst gagnent le mieux leur vie.</p>
+                <p style="color:#FFFFFF">juste pour avoir ligne espace</p>
+                <!--HISTOGRAMME-->
+                <div id="Histogramme"></div>
+
+                    <!-- Load d3.js -->
+                    <script src="https://d3js.org/d3.v4.js"></script>
+
+                    <!-- Add 2 buttons -->
+                    <button onclick="update('All_Jobs')">All_Jobs</button>
+                    <button onclick="update('Business_Analyst')">Business_Analyst</button>
+                    <button onclick="update('Data_Analyst')">Data_Analyst</button>
+                    <button onclick="update('Data_Engineer')">Data_Engineer</button>
+                    <button onclick="update('Data_Scientist')">Data_Scientist</button>
+                    <button onclick="update('Software_Engineer')">Software_Engineer</button>
+                    <button onclick="update('Statistician')">Statistician</button>
+
+
+                    <!-- Create a div where the graph will take place -->
+                    <div id="my_dataviz4"></div>
+
+                    <script src="5Histogramme.js"></script>
+
+                </div>
+                <B>Types de données et variables visuelles utilisées</B>
+                <p style="color:#FFFFFF">juste pour avoir ligne espace</p>
+                <p>le salaire en fonction de la taille de l'entreprise (données quantitatives), se distingue grâce à la longueur des barres sur le graphique.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2><b></b>Tableau de Mackinlay associé à nos variables visuelles</h2>
+                    <h3> Dans cette étude, pour une visualisation optimale, nous nous sommes appuyés sur les concepts de 
+                        perception visuelle et de sémiologie graphique [Bertin 67] ainsi que de la caractérisation des visualisations
+                        à l’aide du modèle de Card & Mackinlay [Card 97]. Ceux-ci sont partis de la sémiologie
+                        graphique, étendue par Mackinlay [Mackinlay 86] dont est issu le tableau ci dessous et qui permet de classer le pouvoir de perception visuelle des différentes variables visuelles utilisées dans cette étude en fonction de son type : <br></h3>
+                    <img src="Mackinlay.PNG" height="500px" width="900px" />
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/sticky-menu.js"></script>
+
+</body>
+
+</html>
